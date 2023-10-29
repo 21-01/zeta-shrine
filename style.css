@@ -70,7 +70,7 @@ body{
     padding: 10px;
     width: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     color: #f9faf8;
 }
 
@@ -108,4 +108,31 @@ body{
 .card img{
     height: 128px;
     margin-bottom: 15px;
+}
+
+/* Quotes */
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    padding: 8px 164px;
+    gap: 25px;
+}
+
+.quotes p{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.quotes p.source{
+    font-weight: 600;
 }
