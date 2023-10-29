@@ -136,3 +136,51 @@ body{
 .quotes p.source{
     font-weight: 600;
 }
+
+/* Call To Action */
+.call{
+    display: flex;
+    border-radius: 10px;
+    background-color: #3882f6;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 150px;
+    padding: 25px 100px;
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.call-text p{
+    margin: 0;
+    color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.bold{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.call button{
+    border: 2px solid white;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
