@@ -76,7 +76,7 @@ body{
 
 /* Info */
 .info{
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,6 +91,21 @@ body{
     display: flex;
     font-size: 18px;
     font-weight: normal;
-    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+    align-items: flex-start;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+
+.card img{
+    height: 128px;
+    margin-bottom: 15px;
 }
